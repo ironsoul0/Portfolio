@@ -1,0 +1,31 @@
+.blog {
+  height:auto;
+  margin-top:40px;
+  align-items:center;
+  margin-bottom:100px;
+}
+
+#postTitle {
+  text-align:center;
+  font-weight:bold;
+}
+
+#postText {
+  margin-left:15%;
+  margin-right:15%;
+}
+
+#subheading {
+  font-weight:bold;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+#return-back {
+  text-align:center;
+  margin-top:50px;
+}
+
+#return-back {
+}
+
