@@ -1,3 +1,7 @@
+* { 
+  transition: all 0.2s ease; 
+}
+
 .blog {
   height:auto;
   margin-top:40px;
@@ -26,6 +30,12 @@
   margin-top:50px;
 }
 
-#return-back {
+.my-zoom-on-hover {
+  transition: transform .5s; 
+  border: none;
 }
 
+.my-zoom-on-hover:hover {
+  transform: scale(1.05); 
+  z-index: 100;
+}
